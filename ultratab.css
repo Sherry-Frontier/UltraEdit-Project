@@ -1,0 +1,89 @@
+@media only screen and (max-width:768px){
+    ul li{
+        display: none;
+        margin-right: 0;
+    }
+    nav.header-menu{
+        margin-top: 10px;
+        justify-content: space-between;
+        margin-right: 220px;
+    }
+    .logo{
+        margin-left: 20px;
+    }
+    .logo img{
+        padding-right: 10px;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .nav-icon img{
+        display: none;
+    }
+    .nav-lang p{
+        display: none;
+    }
+    .hero-text{
+        margin-top: 250px;
+    }   
+    .hero-container{
+        width: 98%;
+        gap: 0px;
+    }
+    .hero-text h1{
+        text-align: center;
+        font-size: 45px;
+        padding-left: 80px;
+    }
+    .hero-container h1{
+        
+    }
+    .hero-image img{
+        margin-top: 300px;
+        align-self: flex-start;
+        position: relative;
+        right: 155px;
+        top: 5px;
+    }
+    .main-container2{
+        margin-top: 250px;
+    }
+
+    .main-container3{
+        grid-template-columns: 350px 350px;
+    }
+    .item{
+        width: 40vw;
+    }
+    .main-container4{
+        gap: 0;
+        margin-top: 0;
+        height: 480vh;
+    }
+    .signing-wrapper{
+        flex-direction: column;
+        gap: 0;
+        padding: 40px;
+    }
+    .signing-section1{
+        margin-top: 100px;
+    }
+    .signing-section2{
+        margin-top: 80px;
+        height: 130vh;
+        width: 50vw;
+        align-self: center;
+    }
+
+    .main-container4-1{
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 0 40px;
+    }
+    .signing-text1{
+    margin-top: 80px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+}
